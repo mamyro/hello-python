@@ -22,3 +22,6 @@ jobs:
 
       - name: Build Docker image
         run: docker build -t hello-python .
+
+      - name: Run Docker container
+        run: docker run --rm hello-python
