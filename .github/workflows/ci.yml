@@ -20,6 +20,9 @@ jobs:
       - name: Run app.py
         run: python app.py
 
+      - name: Run tests
+        run: python test_app.py
+
       - name: Build Docker image
         run: docker build -t hello-python .
 
