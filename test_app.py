@@ -1,7 +1,8 @@
 import subprocess
+import sys
 
 result = subprocess.run(
-    ["python3", "app.py"],
+    [sys.executable, "app.py"],
     capture_output=True,
     text=True
 )
