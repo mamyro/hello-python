@@ -7,6 +7,6 @@ result = subprocess.run(
     text=True
 )
 
-assert result.stdout.strip() == "hello devops!"
+assert result.stdout.strip() == "hello devops! version 2"
 
 print("test passed")
